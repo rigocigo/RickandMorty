@@ -68,3 +68,13 @@ body {
     font-size: 18px;
     line-height: 1.6;
   }
+  h5{color:#fff;
+
+  }
+  .kép{
+    width: 40%;
+  }
+  #alma{
+    display: flex;
+    justify-content: space-around;
+  }
