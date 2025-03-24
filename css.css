@@ -43,10 +43,10 @@ body {
 
 .center-description {
     display: flex;
-    justify-content: center; /* Középre igazítja a leírást vízszintesen */
-    align-items: center; /* Középre igazítja a leírást függőlegesen */
-    min-height: 100vh; /* Az oldal magassága legyen legalább a teljes képernyő */
-    padding-top: 150px; /* Nagyobb távolságot adunk a navigációs sáv és a leírás között */
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    padding-top: 150px; 
   }
   
   .description {
@@ -54,7 +54,7 @@ body {
     color: #fff;
     padding: 30px;
     width: 100%;
-    max-width: 800px; /* A maximális szélesség biztosítja, hogy ne legyen túl széles */
+    max-width: 800px;
     border-radius: 16px;
   }
   
