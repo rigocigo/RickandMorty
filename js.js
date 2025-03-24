@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Keresőmező és gomb létrehozása
     const searchContainer = document.createElement("div");
     searchContainer.style.textAlign = "center";
     searchContainer.style.marginTop = "20px";
@@ -32,10 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    // Keresés gombra kattintáskor
     searchButton.addEventListener("click", searchCharacter);
 
-    // Enter lenyomásának figyelése
     searchInput.addEventListener("keypress", function (event) {
         if (event.key === "Enter") {
             searchCharacter();
@@ -46,7 +43,6 @@ document.addEventListener("DOMContentLoaded", function () {
     searchContainer.appendChild(searchButton);
     document.body.appendChild(searchContainer);
 
-    // Karakter megjelenítésére szolgáló div
     const characterContainer = document.createElement("div");
     characterContainer.id = "character-container";
     characterContainer.style.textAlign = "center";
