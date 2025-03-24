@@ -7,36 +7,64 @@ body {
     background-size: 100%;
   }
   
-  .navbar {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1e1e1e;
     padding: 10px 20px;
-  }
+}
   
-  .navbar .logo img {
+.navbar .logo img {
     height: 100px; 
-  }
+}
   
-  .nav-links {
+.nav-links {
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
+}
   
-  .nav-links li {
+.nav-links li {
     margin: 0 15px;
-  }
+}
   
-  .nav-links a {
+.nav-links a {
     text-decoration: none;
     color: #c9091d;
     font-size: 24px;
     transition: color 0.3s ease;
+}
+  
+.nav-links a:hover {
+    color: white; 
+}
+
+.center-description {
+    display: flex;
+    justify-content: center; /* Középre igazítja a leírást vízszintesen */
+    align-items: center; /* Középre igazítja a leírást függőlegesen */
+    min-height: 100vh; /* Az oldal magassága legyen legalább a teljes képernyő */
+    padding-top: 150px; /* Nagyobb távolságot adunk a navigációs sáv és a leírás között */
   }
   
-  .nav-links a:hover {
-    color: white; 
+  .description {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 800px; /* A maximális szélesség biztosítja, hogy ne legyen túl széles */
+    border-radius: 16px;
+  }
+  
+  .description h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .description p {
+    font-size: 18px;
+    line-height: 1.6;
   }
